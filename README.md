@@ -1,1 +1,7 @@
-This is a test readme to see if my git is working
+# About
+
+This is a personal website designed to host personal projects within my professional development.
+
+# Contact
+
+Email: farishabdelrahem@gmail.com
