@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(249, 251, 242);
+}
+
+@font-face {
+    font-family:Comfortaa;
+    src:url(fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family:Starborn;
+    src:url(fonts/Starborn.ttf);
+}
+
+h1 {
+    font-family: Starborn, Tahoma, sans-serif;
+    font-size: 50px;
+    color:rgb(34, 12, 16);
+    text-align: center;
+    
+}
+
+h2{
+
+
+}
+
+h3{
+
+
+}
+
+p{
+    color:rgb(65, 55, 55);
+    
+}
