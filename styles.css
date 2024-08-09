@@ -13,24 +13,23 @@ body {
 }
 
 h1 {
-    font-family: Starborn, Tahoma, sans-serif;
-    font-size: 50px;
+    font-family: Comfortaa, Tahoma, sans-serif;
+    font-size: 54px;
     color:rgb(34, 12, 16);
     text-align: center;
     
 }
 
 h2{
-
-
+    font-family: Comfortaa, Tahoma, sans-serif;
+    font-size: 36px;
+    color:rgb(34, 12, 16);
 }
 
-h3{
-
-
-}
 
 p{
-    color:rgb(65, 55, 55);
+    font-family: Comfortaa, Tahoma, sans-serif;
+    font-size: 24px;
+    color:rgb(34, 12, 16);
     
 }
