@@ -1,5 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color:rgb(249, 251, 242);
 }
 
 @font-face {
@@ -15,21 +18,63 @@ body {
 h1 {
     font-family: Comfortaa, Tahoma, sans-serif;
     font-size: 54px;
-    color:rgb(34, 12, 16);
+    color: black;
     text-align: center;
-    
+    margin-bottom: 10px
 }
 
-h2{
+h2 {
     font-family: Comfortaa, Tahoma, sans-serif;
     font-size: 36px;
-    color:rgb(34, 12, 16);
+    color: black;
+    text-align: center;
 }
 
 
-p{
+p {
     font-family: Comfortaa, Tahoma, sans-serif;
     font-size: 24px;
-    color:rgb(34, 12, 16);
-    
+    color: black;
+    text-align: center;
+}
+
+.about {
+    padding-top: 140px;
+}
+
+.projects {
+    padding-top: 140px;
+    margin-top: 100%;
+}
+
+.resume {
+    padding-top: 140px;
+    margin-top: 200%;
+}
+
+.contact {
+    padding-top: 140px;
+    margin-top: 300%;
+}
+
+.navbar {
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: azure;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    background: black;
+    color: red;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: gray;
 }
