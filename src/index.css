@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+body {
+    font-family: 'Koh Santepheap', 'Courier New', serif, monospace;
+    color: #402027;
+    background-color: #F7EDF0;
+}
