@@ -28,14 +28,14 @@ function Navbar() {
 
             <div className="bg-[#F9F1F9] fixed px-10 py-3 top-0 left-0 right-0 z-50">
                 <div className="flex flex-row justify-between items-center">
-                    <h2 className="order-first text-4xl hover:cursor-pointer">
+                    <a href="/" className="order-first text-4xl hover:cursor-pointer">
                         <span className="text-[#1B998B]">f</span>aris
-                    </h2>
+                    </a>
                     <div className="md:flex flex-row gap-10 hidden text-3xl">
-                        <p className="hover:cursor-pointer">about</p>
-                        <p className="hover:cursor-pointer">career</p>
-                        <p className="hover:cursor-pointer">projects</p>
-                        <p className="hover:cursor-pointer">resume</p>
+                        <a href="about" className="hover:cursor-pointer">about</a>
+                        <a href="career" className="hover:cursor-pointer">career</a>
+                        <a href="projects" className="hover:cursor-pointer">projects</a>
+                        <a href="resume" className="hover:cursor-pointer">resume</a>
                     </div>
                     <div onClick={() => setHamburgerOpen(!hamburgerOpen)} className="md:hidden hover:cursor-pointer">
                         <Hamburger />
