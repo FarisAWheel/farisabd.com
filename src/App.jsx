@@ -11,8 +11,8 @@ import Projects from './Pages/Projects.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <script src="./index.css"></script>
-    <Navbar />
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
