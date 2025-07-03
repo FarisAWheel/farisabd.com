@@ -10,13 +10,4 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
-
-  build: {
-    rollupOptions: {
-      input: {
-        main: 'index.html',
-        about: resolve(__dirname, 'src/Pages/about/index.html')
-      }
-    }
-  }
 })
