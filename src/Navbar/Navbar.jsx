@@ -26,7 +26,7 @@ function Navbar() {
     return (
         <div>
             {handleHamburger(hamburgerOpen)}
-
+            
             <div className="bg-[#F9F1F9] fixed px-10 py-3 top-0 left-0 right-0 z-50">
                 <div className="flex flex-row justify-between items-center">
                     <a href="/" className="order-first text-4xl hover:cursor-pointer">
