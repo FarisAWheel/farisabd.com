@@ -1,15 +1,18 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: 'Koh Santepheap';
+    src: url('assets/KohSantepheap-Regular.ttf');
+}
+
 body {
     font-family: 'Koh Santepheap', 'Courier New', serif, monospace;
     color: #402027;
     background-color: #F9F1F9;
     padding-top: 76px;
-    font-size: 1.5rem;
 }
 
 h1 {
     text-align: center;
-    font-size: 2.5rem;
     color: #1B998B;
 }
